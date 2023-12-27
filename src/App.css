@@ -1,0 +1,39 @@
+#root {
+	width: 100%;
+
+}
+main {
+	background: steelblue;
+	padding: 100vh 0;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	position: relative;
+}
+
+article {
+	padding: 1rem 1rem 1rem 8rem;
+	max-width: 50%;
+}
+
+h2 {
+	font-size: 3rem;
+	line-height: 0;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+img {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	max-width: 100%;
+	max-height: 500px;
+	object-fit: cover;
+}
